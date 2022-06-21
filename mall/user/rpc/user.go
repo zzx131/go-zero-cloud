@@ -3,9 +3,6 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/nacos-group/nacos-sdk-go/common/constant"
-	"github.com/zeromicro/zero-contrib/zrpc/registry/nacos"
-
 	"go-zero-demo/mall/user/rpc/internal/config"
 	"go-zero-demo/mall/user/rpc/internal/server"
 	"go-zero-demo/mall/user/rpc/internal/svc"
@@ -35,8 +32,8 @@ func main() {
 			reflection.Register(grpcServer)
 		}
 	})
-	// 注册服务
-	sc := []constant.ServerConfig{
+	// 注册到nacos上 注册服务
+	/*sc := []constant.ServerConfig{
 		*constant.NewServerConfig("127.0.0.1", 8848),
 	}
 	cc := &constant.ClientConfig{
@@ -47,7 +44,8 @@ func main() {
 	}
 
 	opts := nacos.NewNacosConfig("user.rpc", c.ListenOn, sc, cc)
-	_ = nacos.RegisterService(opts)
+	_ = nacos.RegisterService(opts)*/
+
 	defer s.Stop()
 
 	fmt.Printf("Starting rpc server at %s...\n", c.ListenOn)

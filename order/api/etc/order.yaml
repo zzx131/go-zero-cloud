@@ -2,4 +2,6 @@ Name: order
 Host: 0.0.0.0
 Port: 8888
 UserRpc:
-  Target: nacos://127.0.0.1:8848/user.rpc?namespaceid=public&timeout=5000s
+  Endpoints:
+    - 127.0.0.1:8080
+  #Target: nacos://127.0.0.1:8848/user.rpc?namespaceid=public&timeout=5000s
