@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package home;
+
+option go_package="go-zero-cloud/mall/user/rpc/home;home";
+
+message Home{
+  string home_num = 1;
+}

@@ -3,6 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
+	"github.com/zeromicro/go-zero/core/logx"
 
 	"go-zero-demo/order/api/internal/config"
 	"go-zero-demo/order/api/internal/handler"
@@ -16,6 +17,7 @@ import (
 var configFile = flag.String("f", "etc/order.yaml", "the config file")
 
 func main() {
+	logx.DisableStat()
 	flag.Parse()
 
 	var c config.Config

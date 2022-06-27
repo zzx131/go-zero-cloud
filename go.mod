@@ -1,4 +1,4 @@
-module go-zero-demo
+module go-zero-cloud
 
 go 1.18
 
