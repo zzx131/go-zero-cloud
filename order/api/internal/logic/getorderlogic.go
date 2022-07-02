@@ -3,10 +3,10 @@ package logic
 import (
 	"context"
 	"errors"
-	"go-zero-demo/mall/user/rpc/user"
+	"go-zero-cloud/mall/user/rpc/user"
 
-	"go-zero-demo/order/api/internal/svc"
-	"go-zero-demo/order/api/internal/types"
+	"go-zero-cloud/order/api/internal/svc"
+	"go-zero-cloud/order/api/internal/types"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

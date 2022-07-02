@@ -1,5 +1,5 @@
 2022-05-29T10:43:05.946+0800	[34mINFO[0m	naming_client/push_receiver.go:80	udp server start, port: 55503
-2022-05-29T10:43:05.946+0800	[31mERROR[0m	cache/disk_cache.go:60	read cacheDir:/home/zzx/go-proj/GOPATH/src/go-zero-demo/order/api/cache/naming failed!err:open /home/zzx/go-proj/GOPATH/src/go-zero-demo/order/api/cache/naming: no such file or directory
+2022-05-29T10:43:05.946+0800	[31mERROR[0m	cache/disk_cache.go:60	read cacheDir:/home/zzx/go-proj/GOPATH/src/go-zero-cloud/order/api/cache/naming failed!err:open /home/zzx/go-proj/GOPATH/src/go-zero-cloud/order/api/cache/naming: no such file or directory
 2022-05-29T10:43:05.947+0800	[34mINFO[0m	naming_client/subscribe_callback.go:39	adding DEFAULT_GROUP@@user.rpc with  to listener map
 2022-05-29T10:43:05.947+0800	[34mINFO[0m	util/common.go:94	Local IP:192.168.10.129
 2022-05-29T10:43:06.714+0800	[33mWARN[0m	util/common.go:43	instance list is empty,json string:{"name":"DEFAULT_GROUP@@user.rpc","groupName":"DEFAULT_GROUP","clusters":"","cacheMillis":10000,"hosts":[],"lastRefTime":1653792186606,"checksum":"","allIPs":false,"reachProtectionThreshold":false,"valid":true}

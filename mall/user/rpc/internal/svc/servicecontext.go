@@ -1,7 +1,7 @@
 package svc
 
 import (
-	"go-zero-demo/mall/user/rpc/internal/config"
+	"go-zero-cloud/mall/user/rpc/internal/config"
 )
 
 type ServiceContext struct {

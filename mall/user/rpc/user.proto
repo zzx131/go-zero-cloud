@@ -5,7 +5,7 @@ package user;
 // protoc-gen-go 版本大于1.4.0, proto文件需要加上go_package,否则无法生成
 option go_package = "./user";
 
-import "home/home.proto";
+// import "home/home.proto";
 
 message IdRequest {
   string id = 1;
@@ -19,7 +19,7 @@ message UserResponse {
   // 用户性别
   string gender = 3;
 
-  home.Home i_home = 4;
+ //  home.Home i_home = 4;
 }
 
 service User {

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"github.com/zeromicro/go-zero/core/logx"
 
-	"go-zero-demo/order/api/internal/config"
-	"go-zero-demo/order/api/internal/handler"
-	"go-zero-demo/order/api/internal/svc"
+	"go-zero-cloud/order/api/internal/config"
+	"go-zero-cloud/order/api/internal/handler"
+	"go-zero-cloud/order/api/internal/svc"
 
 	"github.com/zeromicro/go-zero/core/conf"
 	"github.com/zeromicro/go-zero/rest"

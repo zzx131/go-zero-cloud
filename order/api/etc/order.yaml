@@ -5,3 +5,10 @@ UserRpc:
   Endpoints:
     - 127.0.0.1:8080
   #Target: nacos://127.0.0.1:8848/user.rpc?namespaceid=public&timeout=5000s
+
+#链路追踪
+Telemetry:
+  Name: order-api
+  Endpoint: http://192.168.10.146:14268/api/traces
+  Sampler: 1.0
+  Batcher: jaeger
